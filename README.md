@@ -1,8 +1,6 @@
 # Movie Rating Prediction Project
 
-This project aims to predict movie ratings using various machine learning models. By analyzing a dataset of movie metadata, we seek to identify patterns and insights that can inform predictions, providing a data-driven approach to evaluating movie quality.
-
-With thousands of movies produced annually, it's challenging for audiences to choose what to watch. Traditional methods like critic reviews and personal instincts can be subjective and inconsistent. This project explores the use of machine learning to predict movie ratings based on objective features, offering a potentially more reliable guide for movie enthusiasts.
+This project leverages machine learning techniques to predict IMDb movie ratings using various features such as the number of voted users, movie duration, and critic reviews. By conducting Exploratory Data Analysis (EDA), correlation analysis, regression analysis, classification, and clustering, the project aims to uncover patterns that can effectively predict and categorize movie ratings. The ultimate goal is to provide a data-driven approach to evaluate movie quality, offering a more objective and reliable guide for movie enthusiasts.
 
 You can view the complete project [here](https://github.com/ty-russ/IMDB-Movies-analysis/blob/main/movies_analysis.ipynb).
 
@@ -179,7 +177,7 @@ movie_data['cluster'] = clusters
 
 ## Conclusion
 
-The analysis provided valuable insights into the factors influencing IMDb scores and demonstrated effective methods for predicting and categorizing movie ratings. The clustering analysis further helped in understanding different profiles of movies, which could be beneficial for targeted marketing strategies.
+The project successfully identified key factors influencing IMDb scores and demonstrated the effectiveness of machine learning models in predicting and categorizing movie ratings. Random Forest Regression emerged as the most reliable model for predicting IMDb scores, while the Random Forest classifier effectively categorized movies based on their success. Additionally, clustering analysis revealed distinct movie profiles, offering valuable insights for targeted marketing strategies. These findings underscore the potential of machine learning in enhancing the accuracy and reliability of movie rating predictions.
 
 ## Key Takeaways
 
