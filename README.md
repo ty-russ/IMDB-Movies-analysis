@@ -59,8 +59,6 @@ To understand the relationships between different features and the IMDb score, I
 
 ### Results
 
-![Regression Results](/roc.png)
-
 - **Linear Regression:**
     - Mean Squared Error (MSE): 0.67
     - R-squared: 0.346
