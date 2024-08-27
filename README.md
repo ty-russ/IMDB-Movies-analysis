@@ -127,6 +127,8 @@ plt.show()
 ```
 ![Correlation Analysis](elbow.png)
 
+The optimal value for K appears to be 5, This is the point where adding more clusters beyond this value will not provide a better fit.
+
 ## K-means Clustering Code Snippet
 
 Here is the code snippet for applying K-means clustering:
