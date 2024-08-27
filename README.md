@@ -59,7 +59,7 @@ To understand the relationships between different features and the IMDb score, I
 
 ### Results
 
-![Regression Results](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f2452ac-4745-4972-bb5b-fff298f14b38/9fde590a-4f6b-4bbe-bb31-59226f8d2634/Untitled.png)
+![Regression Results](/roc.png)
 
 - **Linear Regression:**
     - Mean Squared Error (MSE): 0.67
