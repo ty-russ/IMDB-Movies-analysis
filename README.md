@@ -42,7 +42,7 @@ To understand the relationships between different features and the IMDb score, I
 - **Number of Critic Reviews:** Moderate positive correlation (0.35)
 - **Movie Facebook Likes:** Moderate positive correlation (0.35)
 
-![Correlation Analysis](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f2452ac-4745-4972-bb5b-fff298f14b38/bebba33f-b43a-4238-aefb-bd5fe7877dcc/Untitled.png)
+![Correlation Analysis](cor.png)
 
 ## Regression Analysis
 
@@ -125,6 +125,8 @@ plt.ylabel('WCSS')
 plt.show()
 
 ```
+![Correlation Analysis](elbow.png)
+
 ## K-means Clustering Code Snippet
 
 Here is the code snippet for applying K-means clustering:
